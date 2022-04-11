@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Project.srcs/sources_1/new/DIV.vhd" \
+"../../../../Project.srcs/sources_1/new/MULT.vhd" \
+"../../../../Project.srcs/sources_1/new/adderCLA.vhd" \
+"../../../../Project.srcs/sources_1/new/FPU.vhd" \
+"../../../../Project.srcs/sources_1/new/standardize.vhd" \
+"../../../../Project.srcs/sources_1/new/standardiveDiv.vhd" \
+"../../../../Project.srcs/sources_1/new/ROM.vhd" \
+"../../../../Project.srcs/sources_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort
